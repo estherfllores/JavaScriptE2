@@ -77,7 +77,7 @@ function gestionarCompra() {
     saludarCliente();
 
     do {
-        opcion = prompt("Ingrese el número de la opción que desea comprar: \n1. Blazer - $150000 \n2. Carteras - $55000 \n3. Billeteras - $25000 \n4. Jackets - $20000\n5. Zapatos - $80000\n0. Salir/Eliminar del carrito");
+        opcion = prompt("Ingrese el número de la opción que desea comprar: \n1. Blazer - $150000 \n2. Carteras - $55000 \n3. Billeteras - $25000 \n4. Jackets - $200000\n5. Zapatos - $80000\n0. Salir/Eliminar del carrito");
 
         if (isNaN(opcion)) {
             alert("Opcion invalida. Por favor seleccione una opcion entre 1 y 5 para comprar o 0 para salir o eliminar un producto del carrito");
